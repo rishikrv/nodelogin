@@ -31,8 +31,9 @@ db.mongoose
     initial();
   })
   .catch(err => {
-    console.error("Connection error", err);
-    process.exit();
+    console.error("Connection errorww", err);
+    // process.exit();
+    initial();
   });
 
 // simple route
