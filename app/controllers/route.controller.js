@@ -9,15 +9,15 @@ exports.allAccess = (req, res) => {
             "Id": 5411,
             "Name": "#1 TMCC warehouse",
             "RouteId": -1,
-            "ScheduleDateOnly": "2014-01-27T00:00:00",
+            "ScheduleDateOnly": "2022-03-01T00:00:00",
             "HasPrepick": true
           },
           {
             "Id": 5412,
             "Name": "#2 TMCC warehouse",
             "RouteId": -1,
-            "ScheduleDateOnly": "2014-01-27T00:00:00",
-            "HasPrepick": true
+            "ScheduleDateOnly": "2022-03-02T00:00:00",
+            "HasPrepick": false
           }
         ]
       },
