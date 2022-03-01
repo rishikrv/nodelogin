@@ -16,7 +16,7 @@ exports.allAccess = (req, res) => {
               "AssetId": "#5",
               "Barcode": "#5",
               "Place": "Breakroom",
-              "Serviced": true,
+              "Serviced": false,
               "Notes": [
                 
               ],
@@ -256,7 +256,7 @@ exports.allAccess = (req, res) => {
               "AssetId": "Kiosk",
               "Barcode": "Kiosk",
               "Place": "Breakroom",
-              "Serviced": true,
+              "Serviced": false,
               "Notes": [
                 
               ],
