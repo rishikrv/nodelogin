@@ -2201,7 +2201,7 @@ exports.allAccess = (req, res) => {
                 "CoinRefillAvailable": true,
                 "BillRecyclerRefillAvailable": true
               },
-              "DeliveryPoint": null
+              "DeliveryPoint": "data"
             },
             {
               "Id": 999999,
