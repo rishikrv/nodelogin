@@ -2393,7 +2393,124 @@ exports.allAccess = (req, res) => {
                     "Barcodes": []
                 }
             ]
+          },
+          {
+            "Id": 2363,
+            "Name": "Ritz Chips Sour Cream & Onion 1.75",
+            "ProductCode": "MON0004LS",
+            "ItemCategoryId": 62,
+            "IsInvoiceOnly": false,
+            "CostInCents": 42.16666,
+            "Deleted": false,
+            "Packs": [
+                {
+                    "Id": 2356,
+                    "Name": "Each",
+                    "ItemsCount": 1,
+                    "IsDefaultForDelivery": false,
+                    "Active": true,
+                    "Barcodes": [
+                        "019320111914"
+                    ]
+                },
+                {
+                    "Id": 3701,
+                    "Name": "Case",
+                    "ItemsCount": 60,
+                    "IsDefaultForDelivery": false,
+                    "Active": true,
+                    "Barcodes": []
+                }
+            ]
         },
+        {
+          "Id": 1451,
+          "Name": "Keystone Party Mix LSS",
+          "ProductCode": "KEY0003LS",
+          "ItemCategoryId": 62,
+          "IsInvoiceOnly": false,
+          "CostInCents": 51.82142,
+          "Deleted": false,
+          "Packs": [
+              {
+                  "Id": 1432,
+                  "Name": "Each",
+                  "ItemsCount": 1,
+                  "IsDefaultForDelivery": false,
+                  "Active": true,
+                  "Barcodes": [
+                      "072170025084"
+                  ]
+              },
+              {
+                  "Id": 3692,
+                  "Name": "Case",
+                  "ItemsCount": 28,
+                  "IsDefaultForDelivery": false,
+                  "Active": true,
+                  "Barcodes": []
+              }
+          ]
+      },
+      {
+        "Id": 1293,
+        "Name": "Herrs Chips Kettle Regular LSS",
+        "ProductCode": "HER0005LS",
+        "ItemCategoryId": 62,
+        "IsInvoiceOnly": false,
+        "CostInCents": 45.36666,
+        "Deleted": false,
+        "Packs": [
+            {
+                "Id": 1274,
+                "Name": "Each",
+                "ItemsCount": 1,
+                "IsDefaultForDelivery": false,
+                "Active": true,
+                "Barcodes": [
+                    "072600007611"
+                ]
+            },
+            {
+                "Id": 3673,
+                "Name": "Case",
+                "ItemsCount": 30,
+                "IsDefaultForDelivery": false,
+                "Active": true,
+                "Barcodes": []
+            }
+        ]
+    },
+    {
+      "Id": 1178,
+      "Name": "Munchies Snack Mix Cheese Fix LSS",
+      "ProductCode": "FRI0020LS",
+      "ItemCategoryId": 62,
+      "IsInvoiceOnly": false,
+      "CostInCents": 51.42187,
+      "Deleted": false,
+      "Packs": [
+          {
+              "Id": 1159,
+              "Name": "Each",
+              "ItemsCount": 1,
+              "IsDefaultForDelivery": false,
+              "Active": true,
+              "Barcodes": [
+                  "028400025287"
+              ]
+          },
+          {
+              "Id": 3631,
+              "Name": "Case",
+              "ItemsCount": 64,
+              "IsDefaultForDelivery": false,
+              "Active": true,
+              "Barcodes": []
+          }
+      ]
+  },
+
           ],
           "NotScheduledVedningMachines": [
               {
