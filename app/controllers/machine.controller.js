@@ -2331,349 +2331,69 @@ exports.allAccess = (req, res) => {
           ],
           "Items": [
             {
-                "Id": 1,
-                "Name": "Unknown Item",
-                "ProductCode": "00000",
-                "ItemCategoryId": 88,
-                "IsInvoiceOnly": false,
-                "CostInCents": null,
-                "Deleted": false,
-                "Packs": [
-                    {
-                        "Id": 1,
-                        "Name": "Each",
-                        "ItemsCount": 1,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": []
-                    }
-                ]
-            },
-            {
-                "Id": 2,
-                "Name": "Non-Existent Coil",
-                "ProductCode": "000000",
-                "ItemCategoryId": 88,
-                "IsInvoiceOnly": false,
-                "CostInCents": null,
-                "Deleted": false,
-                "Packs": [
-                    {
-                        "Id": 2,
-                        "Name": "Each",
-                        "ItemsCount": 1,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": []
-                    }
-                ]
-            },
-            {
-                "Id": 819,
-                "Name": "Adirondack Seltzer Plain 12",
-                "ProductCode": "ADI0001CS",
-                "ItemCategoryId": 40,
-                "IsInvoiceOnly": false,
-                "CostInCents": 30.60000,
-                "Deleted": false,
-                "Packs": [
-                    {
-                        "Id": 800,
-                        "Name": "Each",
-                        "ItemsCount": 1,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": [
-                            "071698001105"
-                        ]
-                    },
-                    {
-                        "Id": 2888,
-                        "Name": "Case",
-                        "ItemsCount": 24,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": []
-                    }
-                ]
-            },
-            {
-                "Id": 820,
-                "Name": "Jolly Time Healthy Pop Butter Popcorn 3 OZ",
-                "ProductCode": "AME0001LP",
-                "ItemCategoryId": 93,
-                "IsInvoiceOnly": false,
-                "CostInCents": 34.56000,
-                "Deleted": false,
-                "Packs": [
-                    {
-                        "Id": 801,
-                        "Name": "Each",
-                        "ItemsCount": 1,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": []
-                    }
-                ]
-            },
-            {
-                "Id": 821,
-                "Name": "Otis Bagel Plain Sliced IW",
-                "ProductCode": "OTI0008FS",
-                "ItemCategoryId": 55,
-                "IsInvoiceOnly": false,
-                "CostInCents": 46.69000,
-                "Deleted": false,
-                "Packs": [
-                    {
-                        "Id": 802,
-                        "Name": "Each",
-                        "ItemsCount": 1,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": []
-                    }
-                ]
-            },
-            {
-                "Id": 822,
-                "Name": "Otis Muffin Blueberry 4 oz. IW",
-                "ProductCode": "OTI0005FS",
-                "ItemCategoryId": 55,
-                "IsInvoiceOnly": false,
-                "CostInCents": 80.54000,
-                "Deleted": false,
-                "Packs": [
-                    {
-                        "Id": 803,
-                        "Name": "Each",
-                        "ItemsCount": 1,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": []
-                    },
-                    {
-                        "Id": 2484,
-                        "Name": "Case",
-                        "ItemsCount": 24,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": []
-                    }
-                ]
-            },
-            {
-                "Id": 823,
-                "Name": "Otis Muffin Banana Nut IW 4 oz.",
-                "ProductCode": "OTI0002FS",
-                "ItemCategoryId": 55,
-                "IsInvoiceOnly": false,
-                "CostInCents": 80.54000,
-                "Deleted": false,
-                "Packs": [
-                    {
-                        "Id": 804,
-                        "Name": "Each",
-                        "ItemsCount": 1,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": []
-                    },
-                    {
-                        "Id": 2483,
-                        "Name": "Case",
-                        "ItemsCount": 24,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": []
-                    }
-                ]
-            },
-            {
-                "Id": 824,
-                "Name": "Otis Muffin Blueberry IW 6.5 Oz.",
-                "ProductCode": "OTI0001FS",
-                "ItemCategoryId": 55,
-                "IsInvoiceOnly": false,
-                "CostInCents": 101.81000,
-                "Deleted": false,
-                "Packs": [
-                    {
-                        "Id": 805,
-                        "Name": "Each",
-                        "ItemsCount": 1,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": [
-                            "091752021009"
-                        ]
-                    },
-                    {
-                        "Id": 2572,
-                        "Name": "Box",
-                        "ItemsCount": 12,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": []
-                    },
-                    {
-                        "Id": 2573,
-                        "Name": "Case",
-                        "ItemsCount": 48,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": []
-                    }
-                ]
-            },
-            {
-                "Id": 825,
-                "Name": "Otis Muffin Cheese Streusel IW",
-                "ProductCode": "OTI0007FS",
-                "ItemCategoryId": 55,
-                "IsInvoiceOnly": false,
-                "CostInCents": 63.42000,
-                "Deleted": false,
-                "Packs": [
-                    {
-                        "Id": 806,
-                        "Name": "Each",
-                        "ItemsCount": 1,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": []
-                    }
-                ]
-            },
-            {
-                "Id": 826,
-                "Name": "Otis Muffin Chocolate Chip IW 4 oz.",
-                "ProductCode": "OTI0003FS",
-                "ItemCategoryId": 55,
-                "IsInvoiceOnly": false,
-                "CostInCents": 80.54000,
-                "Deleted": false,
-                "Packs": [
-                    {
-                        "Id": 807,
-                        "Name": "Each",
-                        "ItemsCount": 1,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": []
-                    },
-                    {
-                        "Id": 2482,
-                        "Name": "Case",
-                        "ItemsCount": 24,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": []
-                    }
-                ]
-            },
-            {
-                "Id": 827,
-                "Name": "Otis Muffin Chocolate Chocolate Chip IW",
-                "ProductCode": "OTI0004FS",
-                "ItemCategoryId": 55,
-                "IsInvoiceOnly": false,
-                "CostInCents": 71.75000,
-                "Deleted": true,
-                "Packs": [
-                    {
-                        "Id": 808,
-                        "Name": "Each",
-                        "ItemsCount": 1,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": []
-                    }
-                ]
-            },
-            {
-                "Id": 828,
-                "Name": "Otis Muffin Corn IW 4 oz.",
-                "ProductCode": "OTI0006FS",
-                "ItemCategoryId": 55,
-                "IsInvoiceOnly": false,
-                "CostInCents": 71.75000,
-                "Deleted": false,
-                "Packs": [
-                    {
-                        "Id": 809,
-                        "Name": "Each",
-                        "ItemsCount": 1,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": []
-                    },
-                    {
-                        "Id": 5823,
-                        "Name": "Case",
-                        "ItemsCount": 24,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": []
-                    }
-                ]
-            },
-            {
-                "Id": 829,
-                "Name": "Baked Jax Cheese Puffs Bag RSS",
-                "ProductCode": "BAC0001RS",
-                "ItemCategoryId": 69,
-                "IsInvoiceOnly": false,
-                "CostInCents": 21.60000,
-                "Deleted": false,
-                "Packs": [
-                    {
-                        "Id": 810,
-                        "Name": "Each",
-                        "ItemsCount": 1,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": []
-                    },
-                    {
-                        "Id": 4176,
-                        "Name": "Case",
-                        "ItemsCount": 52,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": []
-                    }
-                ]
-            },
-            {
-                "Id": 830,
-                "Name": "Baked Jax Cheese Puffs Bag LSS",
-                "ProductCode": "BAC0001LS",
-                "ItemCategoryId": 62,
-                "IsInvoiceOnly": false,
-                "CostInCents": 43.42857,
-                "Deleted": false,
-                "Packs": [
-                    {
-                        "Id": 811,
-                        "Name": "Each",
-                        "ItemsCount": 1,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": [
-                            "077817161057"
-                        ]
-                    },
-                    {
-                        "Id": 2089,
-                        "Name": "Case",
-                        "ItemsCount": 21,
-                        "IsDefaultForDelivery": false,
-                        "Active": true,
-                        "Barcodes": []
-                    }
-                ]
-            },
+              "Id": 2363,
+              "Name": "Ritz Chips Sour Cream & Onion 1.75",
+              "ProductCode": "MON0004LS",
+              "ItemCategoryId": 62,
+              "IsInvoiceOnly": false,
+              "CostInCents": 42.16666,
+              "Deleted": false,
+              "Packs": [
+                  {
+                      "Id": 2356,
+                      "Name": "Each",
+                      "ItemsCount": 1,
+                      "IsDefaultForDelivery": false,
+                      "Active": true,
+                      "Barcodes": [
+                          "019320111914"
+                      ]
+                  },
+                  {
+                      "Id": 3701,
+                      "Name": "Case",
+                      "ItemsCount": 60,
+                      "IsDefaultForDelivery": false,
+                      "Active": true,
+                      "Barcodes": []
+                  }
+              ]
+          },
+          {
+            "Id": 2012,
+            "Name": "Lifesavers Mints Pep O Mint Vend",
+            "ProductCode": "WRI0013GM",
+            "ItemCategoryId": 56,
+            "IsInvoiceOnly": false,
+            "CostInCents": 42.78000,
+            "Deleted": false,
+            "Packs": [
+                {
+                    "Id": 1993,
+                    "Name": "Each",
+                    "ItemsCount": 1,
+                    "IsDefaultForDelivery": false,
+                    "Active": true,
+                    "Barcodes": []
+                },
+                {
+                    "Id": 3504,
+                    "Name": "Case",
+                    "ItemsCount": 300,
+                    "IsDefaultForDelivery": false,
+                    "Active": true,
+                    "Barcodes": []
+                },
+                {
+                    "Id": 3505,
+                    "Name": "Box",
+                    "ItemsCount": 20,
+                    "IsDefaultForDelivery": false,
+                    "Active": true,
+                    "Barcodes": []
+                }
+            ]
+        },
           ],
           "NotScheduledVedningMachines": [
               {
