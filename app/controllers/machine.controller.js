@@ -2511,6 +2511,270 @@ exports.allAccess = (req, res) => {
       ]
   },
 
+  {
+    "Id": 1665,
+    "Name": "Mountain Dew 20 oz.",
+    "ProductCode": "PEP0003BS",
+    "ItemCategoryId": 41,
+    "IsInvoiceOnly": false,
+    "CostInCents": 101.12500,
+    "Deleted": false,
+    "Packs": [
+        {
+            "Id": 1646,
+            "Name": "Each",
+            "ItemsCount": 1,
+            "IsDefaultForDelivery": false,
+            "Active": true,
+            "Barcodes": [
+                "01213104"
+            ]
+        },
+        {
+            "Id": 3004,
+            "Name": "Case",
+            "ItemsCount": 24,
+            "IsDefaultForDelivery": false,
+            "Active": true,
+            "Barcodes": []
+        }
+    ]
+},
+{
+  "Id": 1656,
+  "Name": "Lipton Brisk Tea 20 oz.",
+  "ProductCode": "PEP0004BS",
+  "ItemCategoryId": 41,
+  "IsInvoiceOnly": false,
+  "CostInCents": 92.70833,
+  "Deleted": false,
+  "Packs": [
+      {
+          "Id": 1637,
+          "Name": "Each",
+          "ItemsCount": 1,
+          "IsDefaultForDelivery": false,
+          "Active": true,
+          "Barcodes": [
+              "01236901"
+          ]
+      },
+      {
+          "Id": 3005,
+          "Name": "Case",
+          "ItemsCount": 24,
+          "IsDefaultForDelivery": false,
+          "Active": true,
+          "Barcodes": []
+      }
+  ]
+},
+{
+  "Id": 1632,
+  "Name": "Aquafina Water 20 oz.",
+  "ProductCode": "PEP0042BS",
+  "ItemCategoryId": 43,
+  "IsInvoiceOnly": false,
+  "CostInCents": 53.16666,
+  "Deleted": false,
+  "Packs": [
+      {
+          "Id": 1613,
+          "Name": "Each",
+          "ItemsCount": 1,
+          "IsDefaultForDelivery": false,
+          "Active": true,
+          "Barcodes": [
+              "01215908"
+          ]
+      },
+      {
+          "Id": 3060,
+          "Name": "Case",
+          "ItemsCount": 24,
+          "IsDefaultForDelivery": false,
+          "Active": true,
+          "Barcodes": []
+      }
+  ]
+},
+{
+  "Id": 1681,
+  "Name": "Pepsi 20",
+  "ProductCode": "PEP0001BS",
+  "ItemCategoryId": 41,
+  "IsInvoiceOnly": false,
+  "CostInCents": 101.12500,
+  "Deleted": false,
+  "Packs": [
+      {
+          "Id": 1662,
+          "Name": "Each",
+          "ItemsCount": 1,
+          "IsDefaultForDelivery": false,
+          "Active": true,
+          "Barcodes": [
+              "01212901"
+          ]
+      },
+      {
+          "Id": 3002,
+          "Name": "Case",
+          "ItemsCount": 24,
+          "IsDefaultForDelivery": false,
+          "Active": true,
+          "Barcodes": []
+      }
+  ]
+},
+
+{
+  "Id": 1712,
+  "Name": "Wild Cherry Pepsi 20 oz.",
+  "ProductCode": "PEP0007BS",
+  "ItemCategoryId": 41,
+  "IsInvoiceOnly": false,
+  "CostInCents": 95.54166,
+  "Deleted": false,
+  "Packs": [
+      {
+          "Id": 1693,
+          "Name": "Each",
+          "ItemsCount": 1,
+          "IsDefaultForDelivery": false,
+          "Active": true,
+          "Barcodes": [
+              "01255906"
+          ]
+      },
+      {
+          "Id": 3008,
+          "Name": "Case",
+          "ItemsCount": 24,
+          "IsDefaultForDelivery": false,
+          "Active": true,
+          "Barcodes": []
+      }
+  ]
+},
+{
+  "Id": 978,
+  "Name": "Coke Classic 20",
+  "ProductCode": "COK0001BS",
+  "ItemCategoryId": 41,
+  "IsInvoiceOnly": false,
+  "CostInCents": 96.00000,
+  "Deleted": false,
+  "Packs": [
+      {
+          "Id": 959,
+          "Name": "Each",
+          "ItemsCount": 1,
+          "IsDefaultForDelivery": false,
+          "Active": true,
+          "Barcodes": [
+              "04904403"
+          ]
+      },
+      {
+          "Id": 2962,
+          "Name": "Case",
+          "ItemsCount": 24,
+          "IsDefaultForDelivery": false,
+          "Active": true,
+          "Barcodes": []
+      }
+  ]
+},
+{
+  "Id": 982,
+  "Name": "Diet Coke 12",
+  "ProductCode": "COK0002CS",
+  "ItemCategoryId": 40,
+  "IsInvoiceOnly": false,
+  "CostInCents": 40.74000,
+  "Deleted": false,
+  "Packs": [
+      {
+          "Id": 963,
+          "Name": "Each",
+          "ItemsCount": 1,
+          "IsDefaultForDelivery": false,
+          "Active": true,
+          "Barcodes": [
+              "04965802"
+          ]
+      },
+      {
+          "Id": 2901,
+          "Name": "Case",
+          "ItemsCount": 24,
+          "IsDefaultForDelivery": false,
+          "Active": true,
+          "Barcodes": []
+      }
+  ]
+},
+{
+  "Id": 977,
+  "Name": "Coke Classic 12",
+  "ProductCode": "COK0001CS",
+  "ItemCategoryId": 40,
+  "IsInvoiceOnly": false,
+  "CostInCents": 40.74000,
+  "Deleted": false,
+  "Packs": [
+      {
+          "Id": 958,
+          "Name": "Each",
+          "ItemsCount": 1,
+          "IsDefaultForDelivery": false,
+          "Active": true,
+          "Barcodes": [
+              "04963406"
+          ]
+      },
+      {
+          "Id": 2900,
+          "Name": "Case",
+          "ItemsCount": 24,
+          "IsDefaultForDelivery": false,
+          "Active": true,
+          "Barcodes": []
+      }
+  ]
+},
+{
+  "Id": 1638,
+  "Name": "Diet Pepsi 20 oz. Bottle",
+  "ProductCode": "PEP0002BS",
+  "ItemCategoryId": 41,
+  "IsInvoiceOnly": false,
+  "CostInCents": 123.91666,
+  "Deleted": false,
+  "Packs": [
+      {
+          "Id": 1619,
+          "Name": "Each",
+          "ItemsCount": 1,
+          "IsDefaultForDelivery": false,
+          "Active": true,
+          "Barcodes": [
+              "012000171741",
+              "01213007"
+          ]
+      },
+      {
+          "Id": 3003,
+          "Name": "Case",
+          "ItemsCount": 24,
+          "IsDefaultForDelivery": false,
+          "Active": true,
+          "Barcodes": []
+      }
+  ]
+},
+
           ],
           "NotScheduledVedningMachines": [
               {
