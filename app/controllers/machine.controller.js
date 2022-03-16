@@ -21,7 +21,7 @@ exports.allAccess = (req, res) => {
                       "DriverNote": null,
                       "VendingMachine": {
                           "MachineTypeName": "Snack (VE 7000)",
-                          "InventoryNeeded": false,
+                          "InventoryNeeded": true,
                           "InventoryUnavoidable": true,
                           "CanGenerateInventoryFromDex": false,
                           "IsOfflineVendingMachine": false,
