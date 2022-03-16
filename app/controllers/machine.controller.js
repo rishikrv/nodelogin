@@ -88,7 +88,7 @@ exports.allAccess = (req, res) => {
                                   "RowIndex": 1,
                                   "ColumnIndex": 3,
                                   "PriceInCents": 110,
-                                  "DesiredPriceInCents": 110,
+                                  "DesiredPriceInCents": 100,
                                   "PrepickQuantity": 3,
                                   "OldPrepickQuantity": 0,
                                   "AddedQuantity": 3,
